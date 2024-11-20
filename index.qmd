@@ -1,0 +1,513 @@
+---
+title: "From Reproducible to Reusable"
+subtitle: "NHS RPySOC 2024"
+author: "[Rhian Davies](mailto:rhian.davies25@nhs.net)"
+date: 2024-11-22
+date-format: "MMM D, YYYY"
+format: 
+  su-theme-revealjs:
+    incremental: true   
+footer: "{{< fa brands bluesky >}} {{< fa brands mastodon >}} {{< fa brands linkedin >}} [@statsRhian](https://bsky.app/profile/statsrhian.bsky.social) &nbsp; {{< fa laptop-code >}} [statsrhian.github.io/nhsrpysoc-reusable](https://statsrhian.github.io/nhsrpysoc-reusable)"
+---
+
+## Thoughts from HACA 2024
+
+<!-- Add alt text to all images --->
+<!--- Update website talk to use nhsrpysoc-reusable slug-->
+<!-- Use one of the undraw images for the website-->
+
+:::: {.columns}
+::: {.column}
+![](img/undraw-conference.svg)
+
+::: 
+::: {.column} 
+- Wow people are doing some great work
+- Inspiring to see people proudly sharing GitHub links
+- Wouldn't it be amazing if everyone knew about and used this work
+:::
+::::
+
+:::{.notes}
+- I had a great time
+- Mostly because there was a massive slide which I went down
+- Eye opening listening to different stories
+:::
+
+
+# My Code Utopia
+
+![](img/undraw-dreamer.svg)   
+
+[Work on great open source code,]{.fragment .fade-in} [together,]{.fragment .fade-in} [publically,]{.fragment .fade-in} [across the system]{.fragment .fade-in}
+
+## Meet Nina
+
+:::: {.columns}
+::: {.column}
+
+![](img/undraw-avatar.svg)
+
+
+:::
+::: {.column}
+
+
+- Analyst at Isle of Wight NHS Trust
+- Learnt R through the NHS-R community
+- Loves video games and her cat Dennis
+- Has been asked to model waiting times for the maternity unit
+:::
+::::
+
+
+## She searches the national public health code library
+
+:::: {.columns}
+::: {.column}
+
+- Searches for `waiting list models`
+- Filters for `R` programming
+- All RAP certified ⭐
+- Maintained by trusted organisations
+
+:::
+
+::: {.column}
+
+![](img/undraw-search-app.svg)
+
+:::
+::::
+
+:::{.notes}
+
+:::
+
+
+## The perfect repository
+
+:::: {.columns}
+::: {.column}
+
+- Open license
+- 100% test-coverage
+- Available on CRAN & NHS package manager
+- Diverse collaborators
+- Website with articles, examples and synthetic data
+:::
+::: {.column}
+
+![](img/undraw-coder.svg)
+:::
+::::
+
+:::{.notes}
+
+- On NHS package manager so it's easy to load in her databricks / UDAL environment
+- fewer, high quality code, which is easier to maintain
+
+:::
+
+## Adapt & contribute
+
+:::: {.columns}
+::: {.column}
+
+- Her team has already got a databricks pipeline for pre-processing HES data
+- Make a PR to expand the function for her model
+- Spots an edge case not covered by tests and contributes a patch
+- Learns about [withr::with_seed()](https://withr.r-lib.org/reference/with_seed.html)
+
+:::
+
+::: {.column}
+
+![](img/undraw-engineers.svg)
+
+:::
+::::
+
+## Learn & Share
+
+:::: {.columns}
+::: {.column}
+
+![](img/undraw-articles.svg)
+
+:::
+::: {.column}
+
+- Delivers a branded Quarto report with her analysis
+- Cites the package and data linkage
+- Writes a blog post about the project for NHS-R
+- Someone from another NHS Trust sees this
+
+:::
+::::
+
+# Doesn't this sound lovely
+
+![](img/undraw-love.svg)
+
+:::{.notes}
+
+Am I just being naive?
+Is this a dream or a possibility?
+ 
+:::
+
+## We're already part-way there 
+
+:::: {.columns}
+::: {.column}
+
+- Growing number of RAP projects on GitHub
+- Analysts are skilling up in function writing and git
+- Teams are using repository templates
+- Useful functions being shared in boilerplate code
+- Collaborative projects in NHS R Community
+:::
+::: {.column}
+
+![](img/undraw-progress.svg)
+
+:::
+::::
+
+:::{.notes}
+- This is awesome, but I think we can take it to the next level
+- To do this I think we need to shift from thinking about reproducibility to reuseability
+:::
+
+
+## From Reproducible to Reusable
+
+<center>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-j1zr{background-color:#f9bd07;border-color:#f5f4f3;color:#f5f4f3;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:50px;text-align:center;
+  vertical-align:top}
+.tg .tg-wmaf{background-color:#fde59c;border-color:#f5f4f3;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:60px;font-weight:bold;
+  text-align:center;vertical-align:middle}
+.tg .tg-xf5m{background-color:#f5f4f3;border-color:#f5f4f3;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;text-align:center;vertical-align:middle}
+.tg .tg-g8ey{background-color:#fbd76a;border-color:#f5f4f3;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:30px;text-align:center;
+  vertical-align:middle}
+</style>
+<table class="tg"><tbody>
+  <tr>
+    <td class="tg-xf5m"></td>
+    <td class="tg-xf5m"></td>
+    <td class="tg-j1zr" colspan="2">Data</td>
+  </tr>
+  <tr>
+    <td class="tg-xf5m"></td>
+    <td class="tg-xf5m"></td>
+    <td class="tg-g8ey">Same </td>
+    <td class="tg-g8ey">Different<br></td>
+  </tr>
+  <tr>
+    <td class="tg-j1zr" rowspan="2">Analysis</td>
+    <td class="tg-g8ey">Same</td>
+    <td class="tg-wmaf">Reproducible</td>
+    <td class="tg-wmaf">Replicable</td>
+  </tr>
+  <tr>
+    <td class="tg-g8ey">Different</td>
+    <td class="tg-wmaf">Robust</td>
+    <td class="tg-wmaf">Reusable</td>
+  </tr>
+</tbody>
+</table>
+</center>
+
+:::{.aside}
+Adapted from [The Turing Way](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions#table-of-definitions-for-reproducibility)
+:::
+
+## What do other people think?
+
+:::: {.columns}
+::: {.column}
+
+> "I think the reusability point is crucial, and perhaps the most important part of RAP"
+
+:::
+::: {.column}
+
+![](img/undraw-chat.svg)
+:::
+::::
+
+## What do other people think?
+
+:::: {.columns}
+::: {.column}
+
+> "Reproducible generally falls on the 'covering your backside' side of things for me" 
+
+:::
+::: {.column}
+
+![](img/undraw-chat.svg)
+:::
+::::
+
+## What do other people think?
+
+:::: {.columns}
+::: {.column}
+
+> "Maybe 'RAP' should really be 'RRRAP' (reproducible, reusable and replicable)"
+
+:::
+::: {.column}
+
+![](img/undraw-chat.svg)
+:::
+::::
+
+## What do other people think?
+
+:::: {.columns}
+::: {.column}
+
+> "Reduce, reuse, recycle works well in this context: reduce reinventing the wheel, reuse other people's code, recycle your code to use it again or let other's use it"
+
+:::
+::: {.column}
+
+![](img/undraw-chat.svg)
+:::
+::::
+
+
+## What do other people think?
+
+:::: {.columns}
+::: {.column}
+
+> "Reusing code is a bit of a psychological shift. When you write something yourself, you know where each step came from and how it fits into what you're trying to do."
+
+:::
+::: {.column}
+
+![](img/undraw-chat.svg)
+:::
+::::
+
+:::{.notes}
+How comfortable as analysts and data scientists are we with picking up someone else's work to use for something we could implement ourselves?
+ 
+Obviously we do this with every package we use, so clearly "to some extent". But in My feeling is that many of us are just not that used to or comfortable with that process yet. 
+:::
+
+## What do other people think?
+
+:::: {.columns}
+::: {.column}
+
+> "In a resource constrained world these could be in direct conflict. Do you spend the time ensuring the results are replicable, or do you sacrifice some of that by making it more reusable?"
+
+:::
+::: {.column}
+
+![](img/undraw-chat.svg)
+:::
+::::
+
+
+## What do other people think?
+
+:::: {.columns}
+::: {.column}
+
+> "I don't know what code has already been developed in my team - never mind in different organisations!"
+
+:::
+::: {.column}
+
+![](img/undraw-chat.svg)
+:::
+::::
+
+## What are the challenges?
+
+:::::: {.columns}
+::: {.column}
+
+- NHS is not one organisation
+- Nervousness developing in public
+- Thinking small
+- Discoverability
+- Upskilling in package development
+- Infrastructure
+- Resource
+
+:::
+::: {.column}
+
+![](img/undraw-barriers.svg)
+
+:::
+::::
+
+:::{.notes}
+Thinking small - my problem is unique so I can't use other code / it won't be useful
+Can't find other work - example me and Matt
+Some of these things we can't change - but some we can
+:::
+
+# What can we do?
+
+![](img/undraw-connecting.svg)
+
+## Build modular code
+
+::::{.columns}
+::: {.column}
+- Think big picture
+- Design smaller, more modular functions
+- Build packages
+- Write for humans
+:::
+::: {.column}
+
+![](img/undraw-build.svg)
+:::
+::::
+
+:::{.notes}
+Instead of making helper functions available in a script in a repo - make a package
+:::
+
+## Shout about it
+
+
+::::{.columns}
+::: {.column}
+
+![](img/undraw-candidate.svg)
+
+
+:::
+::: {.column}
+
+- Write and speak about your work
+- Don't wait until it's finished to share
+- Seek others who might be interested
+- Ask to see code
+- Shout loud, be curious [🎙️](https://thettlpodcast.com/)
+
+:::
+::::
+
+:::{.notes}
+- You're here which is a great start
+- Tactics for Tech Leadership Podcast (Andrew Parker)
+:::
+
+## Reward reusablility
+
+:::::: {.columns}
+::: {.column}
+
+- Borrow with pride 
+- Celebrate those who share
+- ...and those who adapt it
+- Could we have a reusability contest?
+
+:::
+::: {.column}
+
+![](img/undraw-winners.svg)
+
+:::
+::::
+
+::: {.notes}
+As a community we need to value and recognise reusiblity
+This is the opposite to the academic model
+There is still some shame about "I borrowed this code” or "I got this from stack overflow" We need to flip that to pride. 
+"I looked around and found something before wasting time doing it"- GREAT!
+Go forth and steal 
+Re-useablity contest
+:::
+
+
+## Resources
+
+:::::: {.columns}
+::: {.column}
+
+::: {.nonincremental}
+
+- [Goldacre Review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis/better-broader-safer-using-health-data-for-research-and-analysis#modern-open-working-methods-for-nhs-data-analysis:~:text=19.%20Recognise%20the,this%20in%20training.)
+- [RAP community of practice](https://nhsdigital.github.io/rap-community-of-practice/)
+- [Turing Way](https://book.the-turing-way.org/index.html)
+- [Health-RAP-Playbook-Alpha](https://nhsengland.github.io/Health-RAP-Playbook-Alpha)
+- [Undraw](https://undraw.co/)
+:::
+
+:::
+::: {.column}
+![](img/undraw-books.svg)
+:::
+::::
+
+## With thanks to 
+
+:::::: {.columns}
+::: {.column}
+
+::: {.nonincremental}
+- Damien Dixon
+- Matt Dray
+- Lizzie Ellis
+- Sam Hollings
+- Jamie Lendrum
+- Jamie Riley
+- Tim Taylor
+- Rosemary Walmsley
+:::
+
+:::
+::: {.column}
+
+![](img/undraw-people.svg)
+
+:::
+::::
+
+
+## Share your story
+
+:::: {.columns}
+::: {.column}
+
+![](img/undraw-social.svg)
+
+:::
+::: {.column}
+
+::: {.nonincremental}
+- Challenges, success stories, ideas
+- Say hi @statsRhian
+- #rap on [NHS R Community slack](https://nhsrcommunity.slack.com)
+:::
+
+:::
+::::
+
+:::{.notes}
+I want this to be the talk you discuss in the coffee break
+:::
+
