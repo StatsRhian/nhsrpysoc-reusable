@@ -39,7 +39,7 @@ footer: "{{< fa brands bluesky >}} {{< fa brands mastodon >}} {{< fa brands link
 
 ![](img/undraw-dreamer.svg)   
 
-[Work on great open source code,]{.fragment .fade-in} [together,]{.fragment .fade-in} [publically,]{.fragment .fade-in} [across the system]{.fragment .fade-in}
+[Work on great open source code,]{.fragment .fade-in} [together,]{.fragment .fade-in} [publicly,]{.fragment .fade-in} [across the system]{.fragment .fade-in}
 
 ## Meet Nina
 
