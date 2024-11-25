@@ -13,12 +13,10 @@ footer: "{{< fa brands bluesky >}} {{< fa brands mastodon >}} {{< fa brands link
 ## Thoughts from HACA 2024
 
 <!-- Add alt text to all images --->
-<!--- Update website talk to use nhsrpysoc-reusable slug-->
-<!-- Use one of the undraw images for the website-->
 
 :::: {.columns}
 ::: {.column}
-![](img/undraw-conference.svg)
+![Illustration of a woman at a laptop giving a presentation.](img/undraw-conference.svg)\
 
 ::: 
 ::: {.column} 
@@ -37,7 +35,7 @@ footer: "{{< fa brands bluesky >}} {{< fa brands mastodon >}} {{< fa brands link
 
 # My Code Utopia
 
-![](img/undraw-dreamer.svg)   
+![Illustration of a woman sat in a woodland.](img/undraw-dreamer.svg)\   
 
 [Work on great open source code,]{.fragment .fade-in} [together,]{.fragment .fade-in} [publicly,]{.fragment .fade-in} [across the system]{.fragment .fade-in}
 
@@ -46,7 +44,7 @@ footer: "{{< fa brands bluesky >}} {{< fa brands mastodon >}} {{< fa brands link
 :::: {.columns}
 ::: {.column}
 
-![](img/undraw-avatar.svg)
+![Profile picture of a woman (illustrated).](img/undraw-avatar.svg)\
 
 
 :::
@@ -75,7 +73,7 @@ footer: "{{< fa brands bluesky >}} {{< fa brands mastodon >}} {{< fa brands link
 
 ::: {.column}
 
-![](img/undraw-search-app.svg)
+![Illustration of a woman using a search functionality.](img/undraw-search-app.svg)\
 
 :::
 ::::
@@ -98,7 +96,7 @@ footer: "{{< fa brands bluesky >}} {{< fa brands mastodon >}} {{< fa brands link
 :::
 ::: {.column}
 
-![](img/undraw-coder.svg)
+![Illustration of a woman programming, she is punching the air with joy.](img/undraw-coder.svg)\
 :::
 ::::
 
@@ -123,7 +121,7 @@ footer: "{{< fa brands bluesky >}} {{< fa brands mastodon >}} {{< fa brands link
 
 ::: {.column}
 
-![](img/undraw-engineers.svg)
+![Illustration of three people having a meeting with their laptops.](img/undraw-engineers.svg)\
 
 :::
 ::::
@@ -133,7 +131,7 @@ footer: "{{< fa brands bluesky >}} {{< fa brands mastodon >}} {{< fa brands link
 :::: {.columns}
 ::: {.column}
 
-![](img/undraw-articles.svg)
+![Illustration of a woman sat writing an article.](img/undraw-articles.svg)\
 
 :::
 ::: {.column}
@@ -148,7 +146,7 @@ footer: "{{< fa brands bluesky >}} {{< fa brands mastodon >}} {{< fa brands link
 
 # Doesn't this sound lovely
 
-![](img/undraw-love.svg)
+![Illustration of a woman holding a large heart.](img/undraw-love.svg)\
 
 :::{.notes}
 
@@ -170,7 +168,7 @@ Is this a dream or a possibility?
 :::
 ::: {.column}
 
-![](img/undraw-progress.svg)
+![Illustration of a woman next to a line graph. The graph is going up. There are five points and two of them are ticked.](img/undraw-progress.svg)\
 
 :::
 ::::
@@ -190,7 +188,7 @@ Is this a dream or a possibility?
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-j1zr{background-color:#f9bd07;border-color:#f5f4f3;color:#f5f4f3;
+.tg .tg-j1zr{background-color:#A;border-color:#f5f4f3;color:#f5f4f3;
   font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:50px;text-align:center;
   vertical-align:top}
 .tg .tg-wmaf{background-color:#fde59c;border-color:#f5f4f3;
@@ -243,7 +241,7 @@ Adapted from [The Turing Way](https://book.the-turing-way.org/reproducible-resea
 :::
 ::: {.column}
 
-![](img/undraw-chat.svg)
+![Illustration of a woman with two chat speech bubbles.](img/undraw-chat.svg)\
 :::
 ::::
 
@@ -257,7 +255,7 @@ Adapted from [The Turing Way](https://book.the-turing-way.org/reproducible-resea
 :::
 ::: {.column}
 
-![](img/undraw-chat.svg)
+![Illustration of a woman with two chat speech bubbles.](img/undraw-chat.svg)\
 :::
 ::::
 
@@ -271,7 +269,7 @@ Adapted from [The Turing Way](https://book.the-turing-way.org/reproducible-resea
 :::
 ::: {.column}
 
-![](img/undraw-chat.svg)
+![Illustration of a woman with two chat speech bubbles.](img/undraw-chat.svg)\
 :::
 ::::
 
@@ -285,7 +283,7 @@ Adapted from [The Turing Way](https://book.the-turing-way.org/reproducible-resea
 :::
 ::: {.column}
 
-![](img/undraw-chat.svg)
+![Illustration of a woman with two chat speech bubbles.](img/undraw-chat.svg)\
 :::
 ::::
 
@@ -300,7 +298,7 @@ Adapted from [The Turing Way](https://book.the-turing-way.org/reproducible-resea
 :::
 ::: {.column}
 
-![](img/undraw-chat.svg)
+![Illustration of a woman with two chat speech bubbles.](img/undraw-chat.svg)\
 :::
 ::::
 
@@ -320,7 +318,7 @@ Obviously we do this with every package we use, so clearly "to some extent". But
 :::
 ::: {.column}
 
-![](img/undraw-chat.svg)
+![Illustration of a woman with two chat speech bubbles.](img/undraw-chat.svg)\
 :::
 ::::
 
@@ -335,7 +333,7 @@ Obviously we do this with every package we use, so clearly "to some extent". But
 :::
 ::: {.column}
 
-![](img/undraw-chat.svg)
+![Illustration of a woman with two chat speech bubbles.](img/undraw-chat.svg)\
 :::
 ::::
 
@@ -355,7 +353,7 @@ Obviously we do this with every package we use, so clearly "to some extent". But
 :::
 ::: {.column}
 
-![](img/undraw-barriers.svg)
+![Illustration of a woman kicking a ball at a wall to break it.](img/undraw-barriers.svg)\
 
 :::
 ::::
@@ -368,7 +366,7 @@ Some of these things we can't change - but some we can
 
 # What can we do?
 
-![](img/undraw-connecting.svg)
+![Illustration of a person rearranging three profile pictures of other people.](img/undraw-connecting.svg)\
 
 ## Build modular code
 
@@ -381,7 +379,7 @@ Some of these things we can't change - but some we can
 :::
 ::: {.column}
 
-![](img/undraw-build.svg)
+![Illustration of a person putting bricks into a hole in the wall.](img/undraw-build.svg)\
 :::
 ::::
 
@@ -395,7 +393,7 @@ Instead of making helper functions available in a script in a repo - make a pack
 ::::{.columns}
 ::: {.column}
 
-![](img/undraw-candidate.svg)
+![Illustration of a woman speaking at a podium.](img/undraw-candidate.svg)\
 
 
 :::
@@ -428,7 +426,7 @@ Instead of making helper functions available in a script in a repo - make a pack
 :::
 ::: {.column}
 
-![](img/undraw-winners.svg)
+![Illustration of a two people high-fiving.](img/undraw-winners.svg)\
 
 :::
 ::::
@@ -459,7 +457,7 @@ Re-useablity contest
 
 :::
 ::: {.column}
-![](img/undraw-books.svg)
+![Illustration of a woman opening a book.](img/undraw-books.svg)\
 :::
 ::::
 
@@ -482,7 +480,7 @@ Re-useablity contest
 :::
 ::: {.column}
 
-![](img/undraw-people.svg)
+![Illustration of six profiles of people on a website.](img/undraw-people.svg)\
 
 :::
 ::::
@@ -493,7 +491,7 @@ Re-useablity contest
 :::: {.columns}
 ::: {.column}
 
-![](img/undraw-social.svg)
+![Illustration of a woman surrounded by icons of social media platforms.](img/undraw-social.svg)\
 
 :::
 ::: {.column}
