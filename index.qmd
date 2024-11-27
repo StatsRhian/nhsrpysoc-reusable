@@ -35,7 +35,8 @@ footer: "{{< fa brands bluesky >}} {{< fa brands mastodon >}} {{< fa brands link
 
 # My Code Utopia
 
-![Illustration of a woman sat in a woodland.](img/undraw-dreamer.svg)\   
+
+![](img/undraw-dreamer.svg){fig-alt="Illustration of a woman sat in a woodland."}
 
 [Work on great open source code,]{.fragment .fade-in} [together,]{.fragment .fade-in} [publicly,]{.fragment .fade-in} [across the system]{.fragment .fade-in}
 
