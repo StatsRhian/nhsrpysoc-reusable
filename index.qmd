@@ -468,7 +468,6 @@ Re-useablity contest
 ::: {.column}
 
 ::: {.nonincremental}
-- Damien Dixon
 - Matt Dray
 - Lizzie Ellis
 - Sam Hollings
